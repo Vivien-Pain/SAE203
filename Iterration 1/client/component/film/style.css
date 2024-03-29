@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    background-color: E5E5E5;
+    font-family: "Jost", sans-serif;
+}
+
+.card{
+    max-width: 17.5rem;
+    max-height:23.3rem ;
+  
+}
+.films{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__img{
+    width: 17.5rem;
+    height: 23.3rem;
+    border-radius: 1.1rem;
+    opacity: 60%;
+}
+
+
+
+.card__text{
+   
+    flex-direction: column;
+  background-color: white;
+    width: 17.5rem;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    top: -5.5rem;
+    translate:  0 -9.1rem  ;
+    opacity: 0;
+    font-weight: normal;
+}
+.card__title{
+    position: relative;
+    color: white;
+    top: -4rem;
+    left: 0.5rem;
+    font-size: 2rem;
+}
+
+.card__text_real{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+font-size: 1rem;
+}
+.card__text_type{
+font-size: 1rem;
+}
+.card__text_button{
+    align-items: center;
+     background-color: E5E5E5;
+ border-radius: 1.1rem;
+width: 8.5rem;
+height: 2rem;
+ font-size: 0.8rem;
+ border: none;
+ position: relative;
+ top: -0.5rem;
+ font-family: "Jost", sans-serif;
+ box-shadow: 0 3px black;
+ }
+.card__text_date{
+font-size: 1rem;
+
+}
+.card__text_bottom{
+  padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__text_heart{
+ 
+    width: 3rem;
+    position: relative;
+    left: 14rem;
+    bottom: 3rem;
+}
+.card__text_heart:active{
+fill: red;
+}
+
+
+.card:hover .card__text{
+    translate: 0  2rem ;
+    opacity: 1;
+    transition: 0.5s;
+  
+    
+}
+.card:hover .card__img{
+    border-radius: 20px 20px 0px 0px ;
+    opacity: 100%;
+    transition: all ease 0.5s;
+}
+
+.card__text_button:hover{
+    box-shadow: 0 1px black;
+  transition: all .2s ease 0s;
+  transform: translate(0px, 5px);
+     background-color: D1D1D1;
+ 
+
+ }

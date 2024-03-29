@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Les menus de la semaine</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/base.css" />
+
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+
+    <section id="app">
+        <div class="liste_card">
+        <nav class="list_film">
+            <h1>Les Films<input type="submit" id="Film" onclick="requestFilm()"></h1>
+        </nav>
+    
+
+        <div class="films">
+
+        </div>
+    </div>
+    </section>
+
+    <script type="module">
+     
+        import {Film} from './component/film/script.js';
+  
+        window.Film = Film;
+
+      
+    </script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

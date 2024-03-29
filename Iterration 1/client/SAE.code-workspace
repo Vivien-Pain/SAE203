@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../SAE"
+		},
+		{
+			"path": "component/menu"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SAE"
+	}
+}

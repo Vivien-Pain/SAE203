@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Back Office</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <section>
+
+            <nav> 
+                <h1>BACK OFFICE</h1>
+                <h2>Les menus de la semaine</h2>
+            </nav>
+            
+            <form method='GET' action="../server/script.php">
+               
+                <h3>Mettre à jour ou ajouter un menu</h3>
+<!--            
+                <input type="number" id="semaine" onchange="autoCompleteMenu()" name="semaine" placeholder="semaine">
+
+                <select name="jour" id="jour" onchange="autoCompleteMenu()"> -->
+                    
+                </select>
+
+
+                <input type="text" name="titre" placeholder="Saisir le titre">
+                <input type="text" name="realisateur" placeholder="Saisir le realisateur">
+                <input type="date" name="annee_de_sortie" placeholder="Saisir l'annee_de_sortie">
+                <input type="text" name="url_image" placeholder="Saisir l'url de l'image">
+                <input type="text" name="url_trailer" placeholder="Saisir  l'url de la bande d'annonce">
+                <input type="text" name="type" placeholder="Saisir le type de film">
+                
+                <input type="submit" value="Update" name="action">
+
+            </form>
+
+
+     
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
